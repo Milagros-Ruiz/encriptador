@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#izquierda{
+    width: 70%;
+    padding: 2%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#caja-mensaje{
+    padding: 2%;
+    border: 1px solid #D4D0E3;
+    border-radius: 15px;
+}
+h1{
+    color: #DDD8E9;
+    margin-left: 2%;
+}
+#mensaje{
+    width: 100%;
+    padding-top: 5%;
+    border: none;
+    resize: none;
+    color: #E5E5E5;
+    font-size: 24px;
+    
+    
+}
+textarea:focus{
+    outline-style: none;
+}
+textarea::placeholder {
+    color: #E5E5E5;  
+  }
+#caja-botones{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.boton{
+    margin: 1%;
+    padding: 1.1%;
+    border-radius: 7px;
+}
+#btn-encriptar{
+    background-color: #DDD8E9;
+    color: #ffffff;
+    border: none;
+}
+#btn-desencriptar{
+    background-color: white;
+    color: #D4D0E3;
+    border: 1px solid #D4D0E3;
+}
+#caja-copy{
+    width: 100%;
+}
+p{
+    color: #DDD8E9;
+}
+#derecha{
+    width: 30%;
+    height: auto;
+    padding-top: 2%;
+    background-color: #D4D0E3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#caja-encriptado{
+    width: 95%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+}
+#mensaje-encriptado{
+    padding: 5%;
+    background-color: #DDD8E9;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+    border:none;
+    resize: none;
+    font-size: 24px;
+
+}
+#caja-copia{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#btn-copia{
+    background-color: #DDD8E9;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    margin-top: 6%;
+    padding: 2% 3%;
+
+}
+
+@media (max-width:375px ) {
+    
+}

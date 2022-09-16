@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/encriptador.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"/>
+    <script src="js/encriptador.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div id="izquierda">
+        <div id="caja-mensaje">
+            <h1>ENCRIPTADOR</h1>
+            <div>
+                <textarea name="" id="mensaje" cols="60" rows="30" placeholder="Solo letras minúsculas, sin acento"></textarea>
+            </div>
+        </div>
+        <div id="caja-botones">
+            <button class="boton" id="btn-encriptar" onclick="encriptar()">ENCRIPTAR</button>
+            <button class="boton" id="btn-desencriptar" onclick="desencriptar()">DESENCRIPTAR</button>
+        </div>
+        <div id="caja-copy">
+            <p>      	
+                &#169;Copyright Encriptador Milagros 2022
+            </p>
+        </div>
+    </div>
+    <div id="derecha">
+        <div id="caja-encriptado">
+            <textarea name="" id="mensaje-encriptado" cols="30" rows="33"></textarea>
+        </div>
+        <div id="caja-copia">
+            <button class="boton" id="btn-copia" onclick="copiar()">COPIAR</button>
+        </div>
+    </div>
+</body>
+</html>
