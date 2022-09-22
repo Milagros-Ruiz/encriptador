@@ -12,30 +12,42 @@
 </head>
 
 <body>
-    <div id="izquierda">
-        <div id="caja-mensaje">
-            <h1>ENCRIPTADOR</h1>
-            <div>
-                <textarea name="" id="mensaje" cols="60" rows="30" placeholder="Solo letras minúsculas, sin acento"></textarea>
+    <main>
+        <div id="izquierda">
+            <div id="caja-mensaje">
+                <h1>ENCRIPTADOR</h1>
+                <div>
+                    <textarea name="" id="mensaje" cols="60" rows="18" placeholder="Solo letras minúsculas, sin acento"></textarea>
+                </div>
+            </div>
+            <div id="caja-botones">
+                <button class="boton" id="btn-encriptar" onclick="encriptar()">ENCRIPTAR</button>
+                <button class="boton" id="btn-desencriptar" onclick="desencriptar()">DESENCRIPTAR</button>
+            </div>
+            
+        </div>
+        <div id="derecha">
+            <div id="caja-encriptado">
+                <textarea name="" id="mensaje-encriptado" cols="30" rows="20"></textarea>
+            </div>
+            <div id="caja-copia">
+                <button class="boton" id="btn-copia" onclick="copiar()">COPIAR</button>
             </div>
         </div>
-        <div id="caja-botones">
-            <button class="boton" id="btn-encriptar" onclick="encriptar()">ENCRIPTAR</button>
-            <button class="boton" id="btn-desencriptar" onclick="desencriptar()">DESENCRIPTAR</button>
-        </div>
-        <div id="caja-copy">
+    </main>
+   
+    <div id="caja-copy">
+        <div id="div-p">
             <p>      	
                 &#169;Copyright Encriptador Milagros 2022
             </p>
+    
         </div>
-    </div>
-    <div id="derecha">
-        <div id="caja-encriptado">
-            <textarea name="" id="mensaje-encriptado" cols="30" rows="33"></textarea>
+        <div id="espacio">
+
         </div>
-        <div id="caja-copia">
-            <button class="boton" id="btn-copia" onclick="copiar()">COPIAR</button>
-        </div>
+       
+
     </div>
 </body>
 </html>
